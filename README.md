@@ -5,7 +5,7 @@ File tempate for basic HTML, CSS, and JavaScript classes
 Here is the basic structure with stub or empty files in place.
 
 ```
-.
+.art101
 ├── index.html
 ├── css
 │   └── site.css
