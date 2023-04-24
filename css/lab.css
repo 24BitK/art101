@@ -1,6 +1,20 @@
-#minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #A3C9A8;
-  }
+h1 {
+  Color: rgb(145, 95, 10);
+  font-size: 200%;
+}
+
+p {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-indent: 20px;
+margin-left: 10px;
+}
+
+#content  {
+background-color: blanchedalmond;
+width: 300px;
+min-height: 200px;
+padding: 10px;
+margin: 10px;
+border: solid 1px #888;
+font-size: 20px;
+} 
