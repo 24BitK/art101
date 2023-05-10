@@ -2,24 +2,24 @@
     min-height: 100vh;
     width: 100%;
     background-color: #322c4e;
-    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-image: url();
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
+    background-size: 70%;
+    color: #322c4e;
     padding: 0;
   }
   
   /* we can have rules apply to multiple elements at the same time with commas */
   h1,h2,h3 {
-    font-family: sans-serif;
+    font-family: 'silentium', Times, serif;
   }
   
   /* and we can have rules that overlap other rules, both take effect */
   h1 {
-    letter-spacing: 5px;
+    letter-spacing: 0.5px;
     word-spacing: 5px;
-    font-size: 200%;
+    font-size: 320%;
   }
   
   /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
