@@ -4,8 +4,8 @@
 #my-portrait {
   max-width: 400px;
   
-}
-#minor-section {
+  }
+.minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;

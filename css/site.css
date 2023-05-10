@@ -1,5 +1,13 @@
-body {
-    background-color: #d7d14f;
+  body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #322c4e;
+    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 0;
   }
   
   /* we can have rules apply to multiple elements at the same time with commas */
@@ -19,7 +27,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: solid 1px #553739;
-    background-color: #955E42;
+
   }
   
   /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -27,5 +35,5 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #E2DADB;
-    background-color: #5692ec;
   }
+
