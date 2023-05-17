@@ -2,19 +2,21 @@
 
   
   body {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #1232a4;
-    background-image: url();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    color: #906b21;
-    padding: 0;
+    background-color:#553739;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #6226f9;
+    padding: 20px;
   }
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #553739;
+    background-color: rgb(156, 41, 9);
+
+  }  
   
-  /* we can have rules apply to multiple elements at the same time with commas */
-  h1,h2,h3 {
+ h1,h2,h3 {
     font-family: 'silentium', Times, serif;
   }
   
@@ -24,19 +26,20 @@
     word-spacing: 5px;
     font-size: 320%;
   }
-  
-  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-  #content {
-    margin: 10px;
-    padding: 10px;
-    border: solid 1px #553739;
+ 
 
-  }
-  
-  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-  #minor-section {
+/* we can have rules apply to multiple elements at the same time with commas */
+  .sectionbox {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #E2DADB;
+    border: solid 1px black;
+    background-color: rgb(241, 135, 135);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
   }
-
+  .special {
+    background-color: #fdf7ed;
+    border: solid 1px maroon;
+  }
+  
