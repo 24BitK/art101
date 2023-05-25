@@ -21,7 +21,7 @@ function fizzBuzzBoom () {
       audi += "FizzBoom ";
     }// multiples of 3 & 5
     else if (num % 15 == 0){
-      audi += "FizzBuzz ";{
+      audi += "FizzBuzz ";
     } 
     else if (num % 7 == 0){
       audi += "Boom ";
@@ -39,7 +39,7 @@ function fizzBuzzBoom () {
   return audi;
 
   }
-}
+
 
 //grab element asssociate with where we wat to store out output
 var results = document.getElementById("output");
