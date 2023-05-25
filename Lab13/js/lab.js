@@ -2,28 +2,29 @@
 // Author: Kali Daniels <kamdanie@ucsc.edu>
 // Date: 5.22.2023
 
-
-//return Gryfindor, Ravenclaw, Slytherin, an Hefflepuff
-function sortingHat(str)  {
-  len = str.length;
-  mod = len % 4;
-  if (mod == 0) {
-    return "Ravenclaw"
+//{3: "Fizz", 5: "Buzz", 7: "Boom"}
+//loops over the numbers and outputs the number and the matching text 11 
+//for factors
+function fizzBuzzBoom (maxNums, factorobj) {
+  // iterate over all of out numbers
+    for (var num=0; num<maxNums; num++) {
+      // reset output string
+      var outputStr = "";
+      // iterate over the factors we got from the html
+      for (var factor in factorObj) {
+        // check to see if this num is a multiple of factor
+        if (num % factor == 0) {
+        //now if yes, than add the text to output string
+        outputStr += factorObj[factor];
+        }
+      }
+    }    
+    //now if we have words in outputstr, format it like this " - FizzBuzz!"
+    if (outputstr) {
+    outputstr = " - " + outputstr + "!";
+    }
+    outputToPage (num.tostring() + outputStr)
   }
-  else if (mod == 1) {
-    return "Hifflepuff"
+  function reportError(str){
+  outputEl.innerHTML = "«div class='error'>" + str + "</div»";
   }
-  else if (mod == 2) {
-    return "Slytherin"
-  }
-  else if (mod == 3) {
-    return "Gryffindor"
-  }
-}
-var myButton = document.getElementById("button");
-myButton.addEventListener("click", function() {
-  var name = document.getElementById("input").value;
-  var house = sortingHat(name);
-  newText = "<p>The Sorting Hat has decided!! You are house of " + house + "</p>";
-  document.getElementById("output").innerHTML = newText;
-})
