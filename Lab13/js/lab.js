@@ -5,11 +5,23 @@
 //{3: "Fizz", 5: "Buzz", 7: "Boom"}
 //loops over the numbers and outputs the number and the matching text 11 
 //for factors
+
 function fizzBuzzBoom () {
+  var audi = "";
   // iterate over all of out 200
-    for (var num = 1; num < 200; num++) {
-    var audi = " ";
-    //multiples 7 output
+  for (var num = 1; num <= 200; num++) {
+    //multiples 7 output\
+    if (num % 105 == 0){
+      audi = "FizzBuzzBoom";
+    }// multiples of 5 & 7
+    else if (num % 35 == 0){
+      audi = "BuzzBoom";
+    }// multiples of 3 & 7  
+    else if (num % 21 == 0){
+      audi = "BuzzBoom";
+    }// multiples of 3 & 5
+    else if (num % 15 == 0){
+      audi = "FizzBuzz";
     if (num % 7 == 0){
       audi += "Boom ";
     }//multiples 5 output
@@ -25,6 +37,7 @@ function fizzBuzzBoom () {
   }
   return audi;
 
+  }
 }
 
 //grab element asssociate with where we wat to store out output
