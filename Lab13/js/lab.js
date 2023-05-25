@@ -10,19 +10,20 @@ function fizzBuzzBoom () {
   var audi = "";
   // iterate over all of out 200
   for (var num = 1; num <= 200; num++) {
-    //multiples 7 output\
+    //multiples 7 output
     if (num % 105 == 0){
-      audi = "FizzBuzzBoom";
+      audi += "FizzBuzzBoom ";
     }// multiples of 5 & 7
     else if (num % 35 == 0){
-      audi = "BuzzBoom";
+      audi += "BuzzBoom ";
     }// multiples of 3 & 7  
     else if (num % 21 == 0){
-      audi = "BuzzBoom";
+      audi += "FizzBoom ";
     }// multiples of 3 & 5
     else if (num % 15 == 0){
-      audi = "FizzBuzz";
-    if (num % 7 == 0){
+      audi += "FizzBuzz ";{
+    } 
+    else if (num % 7 == 0){
       audi += "Boom ";
     }//multiples 5 output
     else if (num % 5 == 0){
