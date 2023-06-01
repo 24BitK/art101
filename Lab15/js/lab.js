@@ -14,9 +14,8 @@ function getStuff() {
     console.log(data.population);
     var climate = data.climate;
     var population = data.population;
-    $("#output").html("<h2>" + data.name + "</h2><p>" + data.climate + "<br>" + population);
-   // $("#output").html("<p>" + climate);
-    //$("#output").append("<p>" + population);
+    $("#output").html("<h2>" + climate);
+    $("#output").append("<p>" + population);
     
   })
 }
